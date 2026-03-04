@@ -11,7 +11,7 @@ const MyVolunteering = () => {
   return (
     <div className="p-6">
       {/* Header */}
-      <div className="flex justify-between items-center bg-white shadow-sm rounded-xl p-4">
+      <div className="flex justify-between items-center bg-slate-100 shadow-sm rounded-xl p-4">
         <div>
           <h2 className="text-2xl font-semibold">My Volunteerings</h2>
           <p className="text-gray-500 text-sm">

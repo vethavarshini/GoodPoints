@@ -47,7 +47,7 @@ const CreateRequest = () => {
   };
 
   return (
-    <div className="min-h-screen bg-purple-50 flex items-center justify-center p-6">
+    <div className="min-h-screen bg-slate-100 flex items-center justify-center p-6">
       <div className="w-full max-w-3xl bg-white rounded-2xl shadow-lg border border-purple-100">
         
         {/* Header */}
