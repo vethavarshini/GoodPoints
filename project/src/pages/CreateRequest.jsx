@@ -47,7 +47,7 @@ const CreateRequest = () => {
   };
 
   return (
-    <div className="min-h-screen bg-slate-100 flex items-center justify-center p-6">
+    <div className="min-h-screen pt-22 bg-slate-100 flex items-center justify-center p-6">
       <div className="w-full max-w-3xl bg-white rounded-2xl shadow-lg border border-purple-100">
         
         {/* Header */}
@@ -65,7 +65,7 @@ const CreateRequest = () => {
 
           {/* Title */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-purple-700 mb-2">
               Title
             </label>
             <input
@@ -84,7 +84,7 @@ const CreateRequest = () => {
           {/* Category + Area */}
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-purple-700 mb-2">
                 Category
               </label>
               <select
@@ -106,7 +106,7 @@ const CreateRequest = () => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-purple-700 mb-2">
                 Neighborhood / Area
               </label>
               <input
@@ -126,7 +126,7 @@ const CreateRequest = () => {
           {/* Priority + Deadline */}
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-purple-700 mb-2">
                 Urgency Level
               </label>
               <select
@@ -146,7 +146,7 @@ const CreateRequest = () => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">
+              <label className="block text-sm font-medium text-purple-700 mb-2">
                 Deadline
               </label>
               <input
@@ -161,7 +161,7 @@ const CreateRequest = () => {
 
           {/* Description */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-purple-700 mb-2">
               Description
             </label>
             <textarea
