@@ -32,19 +32,40 @@ const CreateRequest = () => {
     return newErrors;
   };
 
-  const handleSubmit = () => {
-    const validationErrors = validate();
-    setErrors(validationErrors);
-    if (Object.keys(validationErrors).length > 0) return;
+const handleSubmit = async () => {
+  const validationErrors = validate();
+  setErrors(validationErrors);
+  if (Object.keys(validationErrors).length > 0) return;
 
-    setIsSubmitting(true);
+  setIsSubmitting(true);
 
-    setTimeout(() => {
-      console.log("Submitted Data:", formData);
-      setIsSubmitting(false);
-      navigate("/my-requests");
-    }, 1500);
-  };
+  try {
+    const token = localStorage.getItem("token");
+
+    const response = await fetch("http://localhost:5000/api/requests", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify(formData),
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(data.msg || "Failed to create request");
+    }
+
+    navigate("/my-requests");
+
+  } catch (error) {
+    console.error(error);
+    alert("Error creating request");
+  }
+
+  setIsSubmitting(false);
+};
 
   return (
     <div className="min-h-screen pt-22 bg-slate-100 flex items-center justify-center p-6">
