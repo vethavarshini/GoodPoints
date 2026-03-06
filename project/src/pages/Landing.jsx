@@ -10,19 +10,19 @@ const Landing = () => {
       {/* NAVBAR */}
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-8 py-6">
         <h1 className="text-xl font-bold">
-          Hero<span className="text-indigo-600">Missions</span>
+          Hero<span className="text-purple-700">Missions</span>
         </h1>
 
         <div className="flex gap-4">
           <button
             onClick={() => navigate("/login")}
-            className="text-sm font-medium text-slate-600 hover:text-indigo-600"
+            className="text-sm font-medium text-slate-600 hover:text-purple-700"
           >
             Login
           </button>
           <button
             onClick={() => navigate("/login")}
-            className="rounded-full bg-indigo-600 px-5 py-2 text-sm font-medium text-white hover:bg-indigo-700"
+            className="rounded-full bg-purple-700 px-5 py-2 text-sm font-medium text-white hover:bg-purple-800"
           >
             Get Started
           </button>
@@ -34,14 +34,14 @@ const Landing = () => {
         <div className="grid items-center gap-12 md:grid-cols-2">
           
           <div>
-            <span className="inline-block rounded-full bg-indigo-100 px-4 py-1 text-sm font-medium text-indigo-600">
+            <span className="inline-block rounded-full bg-purple-100 px-4 py-1 text-sm font-medium text-purple-700">
               Community Help • Hyperlocal Support
             </span>
 
             <h2 className="mt-6 text-4xl font-extrabold leading-tight md:text-5xl">
               Small help.
               <br />
-              <span className="text-indigo-600">
+              <span className="text-purple-700">
                 Big impact.
               </span>
             </h2>
@@ -54,7 +54,7 @@ const Landing = () => {
             <div className="mt-10 flex gap-4">
               <button
                 onClick={() => navigate("/login")}
-                className="flex items-center gap-2 rounded-full bg-indigo-600 px-6 py-3 font-medium text-white hover:bg-indigo-700"
+                className="flex items-center gap-2 rounded-full bg-purple-700 px-6 py-3 font-medium text-white hover:bg-purple-800"
               >
                 Join as Volunteer <ArrowRight size={18} />
               </button>
@@ -70,7 +70,7 @@ const Landing = () => {
 
           {/* VISUAL CARD */}
           <div className="relative hidden md:block">
-            <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-indigo-500/20 to-indigo-300/10 blur-2xl" />
+            <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-purple-500/20 to-purple-300/10 blur-2xl" />
             <div className="relative rounded-3xl bg-white p-8 shadow-lg">
               <h3 className="mb-4 text-lg font-semibold">
                 Live Community Impact
@@ -83,6 +83,7 @@ const Landing = () => {
               </div>
             </div>
           </div>
+
         </div>
       </section>
 
@@ -90,17 +91,17 @@ const Landing = () => {
       <section className="mx-auto max-w-7xl px-8 py-20">
         <div className="grid gap-8 md:grid-cols-3">
           <FeatureCard
-            icon={<AlertTriangle className="text-indigo-600" />}
+            icon={<AlertTriangle className="text-purple-700" />}
             title="Crisis-Aware System"
             description="Adaptive interface that prioritizes urgent needs during emergencies and disasters."
           />
           <FeatureCard
-            icon={<Users className="text-indigo-600" />}
+            icon={<Users className="text-purple-700" />}
             title="Hyperlocal Missions"
             description="Tasks are matched within your neighborhood for faster response and higher trust."
           />
           <FeatureCard
-            icon={<Shield className="text-indigo-600" />}
+            icon={<Shield className="text-purple-700" />}
             title="Safe & Verified"
             description="Role-based access, community trust signals, and transparent impact tracking."
           />
@@ -129,7 +130,7 @@ const Landing = () => {
 
         <button
           onClick={() => navigate("/login")}
-          className="mt-8 rounded-full bg-indigo-600 px-8 py-3 font-medium text-white hover:bg-indigo-700"
+          className="mt-8 rounded-full bg-purple-700 px-8 py-3 font-medium text-white hover:bg-purple-800"
         >
           Get Started
         </button>
@@ -155,7 +156,7 @@ const FeatureCard = ({ icon, title, description }) => (
 
 const Stat = ({ value, label }) => (
   <div>
-    <p className="text-3xl font-bold text-indigo-600">{value}</p>
+    <p className="text-3xl font-bold text-purple-700">{value}</p>
     <p className="mt-1 text-sm text-slate-500">{label}</p>
   </div>
 );
