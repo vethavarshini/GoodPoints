@@ -63,7 +63,7 @@ const Navbar = () => {
 >
       {/* Logo */}
       <Link to="/" className="text-xl font-semibold tracking-wide">
-        GoodPoints
+        HeroMissions
       </Link>
 
       {/* Right Section */}
