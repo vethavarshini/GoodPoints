@@ -76,11 +76,51 @@ const Landing = () => {
                 Live Community Impact
               </h3>
 
-              <div className="space-y-4 text-sm text-slate-600">
-                <p>🚑 Medical assistance nearby</p>
-                <p>💧 Water & supply distribution</p>
-                <p>🏃‍♂️ Volunteers responding in real time</p>
-              </div>
+              <div className="space-y-4 text-sm">
+
+  <div className="flex items-start justify-between border-b pb-3">
+    <div>
+      <p className="font-medium text-slate-800">
+        Medical assistance request
+      </p>
+      <p className="text-xs text-slate-500">
+        Posted in Downtown area
+      </p>
+    </div>
+    <span className="text-xs font-medium text-purple-700 bg-purple-100 px-2 py-1 rounded-full">
+      Urgent
+    </span>
+  </div>
+
+  <div className="flex items-start justify-between border-b pb-3">
+    <div>
+      <p className="font-medium text-slate-800">
+        Grocery delivery needed
+      </p>
+      <p className="text-xs text-slate-500">
+        2 volunteers nearby
+      </p>
+    </div>
+    <span className="text-xs font-medium text-purple-700 bg-purple-100 px-2 py-1 rounded-full">
+      Active
+    </span>
+  </div>
+
+  <div className="flex items-start justify-between">
+    <div>
+      <p className="font-medium text-slate-800">
+        Transportation assistance
+      </p>
+      <p className="text-xs text-slate-500">
+        Volunteer responding now
+      </p>
+    </div>
+    <span className="text-xs font-medium text-purple-700 bg-purple-100 px-2 py-1 rounded-full">
+      In Progress
+    </span>
+  </div>
+
+</div>
             </div>
           </div>
 
