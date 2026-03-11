@@ -6,20 +6,7 @@ const MyRequests = () => {
 
   // Toggle this to [] to test empty state
   const requests = [
-    // {
-    //   id: 1,
-    //   title: "Medical assistance for fever",
-    //   status: "Pending",
-    //   zone: "North Campus Zone",
-    //   createdAt: "10 mins ago",
-    // },
-    // {
-    //   id: 2,
-    //   title: "Grocery delivery",
-    //   status: "Accepted",
-    //   zone: "North Campus Zone",
-    //   createdAt: "1 hour ago",
-    // },
+ 
   ];
 
   return (
