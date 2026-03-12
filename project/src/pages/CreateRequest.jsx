@@ -114,12 +114,17 @@ const handleSubmit = async () => {
                 onChange={handleChange}
                 className="w-full rounded-xl border border-gray-800 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition"
               >
-                <option value="">Select one</option>
-                <option>Medical</option>
-                <option>Food</option>
-                <option>Transportation</option>
-                <option>Household</option>
-                <option>Other</option>
+                <option value="">Select a category</option>
+<option value="medical">Medical Assistance</option>
+<option value="food">Food & Groceries</option>
+<option value="transport">Transportation</option>
+<option value="elderly">Elderly Support</option>
+<option value="childcare">Childcare Assistance</option>
+<option value="household">Household Help</option>
+<option value="education">Education / Tutoring</option>
+<option value="technology">Technology Help</option>
+<option value="emergency">Emergency Support</option>
+<option value="other">Other</option>
               </select>
               {errors.category && (
                 <p className="text-xs text-red-500 mt-1">{errors.category}</p>
