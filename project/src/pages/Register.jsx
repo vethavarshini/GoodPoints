@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 
 const Register = () => {
@@ -25,7 +25,7 @@ const Register = () => {
         role,
       });
 
-      navigate("/dashboard"); // after register → login
+      navigate("/login"); // redirect after register
     } catch (err) {
       setError(err.response?.data?.msg || "Registration failed");
     }
@@ -36,16 +36,16 @@ const Register = () => {
       <div className="flex w-full max-w-5xl overflow-hidden rounded-2xl shadow-xl">
 
         {/* LEFT SECTION */}
-        <div className="hidden w-1/2 flex-col justify-center bg-gradient-to-br from-indigo-600 to-indigo-400 p-12 text-white md:flex">
+        <div className="hidden w-1/2 flex-col justify-center bg-gradient-to-br from-purple-700 to-purple-500 p-12 text-white md:flex">
           <div className="mb-6 flex items-center gap-2 text-xl font-semibold">
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-indigo-600">
+            <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-purple-700">
               ⚡
             </span>
-            HeroMissions
+            GoodPoints
           </div>
 
           <h1 className="mb-4 text-4xl font-bold">Create Account</h1>
-          <p className="text-indigo-100">
+          <p className="text-purple-100">
             Join as a helper or volunteer and start making impact today.
           </p>
         </div>
@@ -65,7 +65,7 @@ const Register = () => {
             placeholder="Full Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="mb-4 w-full rounded-full border px-4 py-3 text-sm"
+            className="mb-4 w-full rounded-full border border-slate-300 px-4 py-3 text-sm focus:border-purple-700 focus:outline-none"
           />
 
           {/* Email */}
@@ -74,7 +74,7 @@ const Register = () => {
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="mb-4 w-full rounded-full border px-4 py-3 text-sm"
+            className="mb-4 w-full rounded-full border border-slate-300 px-4 py-3 text-sm focus:border-purple-700 focus:outline-none"
           />
 
           {/* Password */}
@@ -83,7 +83,7 @@ const Register = () => {
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="mb-6 w-full rounded-full border px-4 py-3 text-sm"
+            className="mb-6 w-full rounded-full border border-slate-300 px-4 py-3 text-sm focus:border-purple-700 focus:outline-none"
           />
 
           {/* ROLE SELECTION */}
@@ -92,7 +92,7 @@ const Register = () => {
               onClick={() => setRole("help_seeker")}
               className={`rounded-xl border p-4 text-sm font-medium ${
                 role === "help_seeker"
-                  ? "border-indigo-600 bg-indigo-50 text-indigo-600"
+                  ? "border-purple-700 bg-purple-50 text-purple-700"
                   : "border-slate-300"
               }`}
             >
@@ -103,7 +103,7 @@ const Register = () => {
               onClick={() => setRole("volunteer")}
               className={`rounded-xl border p-4 text-sm font-medium ${
                 role === "volunteer"
-                  ? "border-indigo-600 bg-indigo-50 text-indigo-600"
+                  ? "border-purple-700 bg-purple-50 text-purple-700"
                   : "border-slate-300"
               }`}
             >
@@ -118,7 +118,7 @@ const Register = () => {
           {/* Register Button */}
           <button
             onClick={handleRegister}
-            className="mb-4 w-full rounded-full bg-indigo-600 py-3 text-sm font-medium text-white hover:bg-indigo-700"
+            className="mb-4 w-full rounded-full bg-purple-700 py-3 text-sm font-medium text-white hover:bg-purple-800"
           >
             Create Account
           </button>
@@ -126,12 +126,12 @@ const Register = () => {
           {/* Footer */}
           <p className="text-center text-sm text-slate-500">
             Already have an account?{" "}
-            <span
-              onClick={() => navigate("/login")}
-              className="cursor-pointer font-medium text-indigo-600 hover:underline"
+            <Link
+              to="/login"
+              className="font-medium text-purple-700 hover:underline"
             >
               Login
-            </span>
+            </Link>
           </p>
         </div>
       </div>
