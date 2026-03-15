@@ -46,10 +46,10 @@ const Landing = () => {
               </span>
             </h2>
 
-            <p className="mt-6 max-w-xl text-lg text-slate-500">
-              GoodPoints connects neighbors who need help with those who are ready to offer it —
-              building stronger, faster, and more caring communities.
-            </p>
+          <p className="mt-6 max-w-xl text-lg text-slate-500">
+  HeroMissions connects people who need help with everyday heroes ready to step in — 
+  turning small acts of kindness into real impact for local communities.
+</p>
 
             <div className="mt-10 flex gap-4">
               <button
