@@ -31,8 +31,7 @@ const MyVolunteering = () => {
       <div className="mt-10 border border-dashed rounded-xl p-10 text-center bg-gray-50">
         <h3 className="text-xl font-semibold mb-2">No Volunteering Yet</h3>
         <p className="text-gray-500 mb-6">
-          You haven't offered to help with any requests yet. Check out the
-          community feed!
+          You haven't offered to help with any requests yet. Browse the available requests and make a difference!
         </p>
 
         <button
