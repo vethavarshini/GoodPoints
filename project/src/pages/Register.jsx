@@ -46,7 +46,7 @@ const Register = () => {
 
           <h1 className="mb-4 text-4xl font-bold">Create Account</h1>
           <p className="text-purple-100">
-            Join as a helper or volunteer and start making impact today.
+            Join as a volunteer and start making impact today.
           </p>
         </div>
 
