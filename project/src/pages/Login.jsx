@@ -62,7 +62,7 @@ const Login = () => {
             <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-purple-700">
               ⚡
             </span>
-            GoodPoints
+            HeroMissions
           </div>
 
           <h1 className="mb-4 text-4xl font-bold">Hey, Hello!</h1>
