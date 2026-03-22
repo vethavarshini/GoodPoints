@@ -165,7 +165,7 @@ const Landing = () => {
           Be the reason help arrives on time.
         </h3>
         <p className="mx-auto mt-4 max-w-xl text-slate-500">
-          Join GoodPoints and turn local action into meaningful impact.
+          Join HeroMissions and turn local action into meaningful impact.
         </p>
 
         <button
