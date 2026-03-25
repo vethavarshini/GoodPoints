@@ -178,7 +178,8 @@ const Landing = () => {
 
       {/* FOOTER */}
       <footer className="border-t border-slate-200 py-6 text-center text-sm text-slate-500">
-        © 2026 HeroMissions · Built for community resilience
+       © 2026 HeroMissions · Together we rise
+
       </footer>
     </div>
   );
