@@ -65,8 +65,7 @@ const EmptyState = ({ onCreate }) => (
       No Requests Yet
     </h3>
     <p className="mt-2 max-w-sm text-sm text-slate-500">
-      You haven’t asked for any help yet. Don’t hesitate to reach out to
-      your local community!
+      You’re not alone . reach out to your local community whenever you need support.
     </p>
 
     <button
