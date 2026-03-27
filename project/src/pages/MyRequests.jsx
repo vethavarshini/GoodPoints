@@ -62,7 +62,7 @@ const EmptyState = ({ onCreate }) => (
     </div>
 
     <h3 className="text-lg font-semibold text-slate-800">
-      No Requests Yet
+      No Requests
     </h3>
     <p className="mt-2 max-w-sm text-sm text-slate-500">
       You’re not alone . reach out to your local community whenever you need support.
