@@ -77,7 +77,7 @@ const handleSubmit = async () => {
             Create Help Request
           </h1>
           <p className="mt-1 text-sm text-gray-500">
-            Fill in the details below to post your request.
+            Fill in the details below to post your request
           </p>
         </div>
 
