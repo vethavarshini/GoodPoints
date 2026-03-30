@@ -8,7 +8,7 @@ const Dashboard = () => {
       title: "Need help moving couch",
       description:
         "I'm moving to a new apartment this weekend and need someone to help me carry a couch down one flight of stairs.",
-      location: "Downtown, Main St.",
+      location: "Downtown",
       time: "17 minutes ago",
       user: "Alice",
       comments: 1,
