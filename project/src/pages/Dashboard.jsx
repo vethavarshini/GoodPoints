@@ -19,7 +19,7 @@ const Dashboard = () => {
       category: "Delivery",
       title: "Groceries pickup for elderly",
       description:
-        "My grandfather needs someone to pick up his grocery order from the local supermarket and deliver it.",
+        "My grandfather needs someone to pick up his grocery order from the local supermarket and deliver the items",
       location: "Westside, Oak Ave",
       time: "17 minutes ago",
       user: "Bob",
