@@ -172,13 +172,13 @@ const Landing = () => {
           onClick={() => navigate("/login")}
           className="mt-8 rounded-full bg-purple-700 px-8 py-3 font-medium text-white hover:bg-purple-800"
         >
-          Get Started
+          Get Started !
         </button>
       </section>
 
       {/* FOOTER */}
       <footer className="border-t border-slate-200 py-6 text-center text-sm text-slate-500">
-       © 2026 HeroMissions · Together we rise
+       © 2026 HeroMissions · Together we rise 
 
       </footer>
     </div>
