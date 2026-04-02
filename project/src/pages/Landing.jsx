@@ -98,7 +98,7 @@ const Landing = () => {
         Grocery delivery needed
       </p>
       <p className="text-xs text-slate-500">
-        2 volunteers nearby
+        3 volunteers nearby 
       </p>
     </div>
     <span className="text-xs font-medium text-purple-700 bg-purple-100 px-2 py-1 rounded-full">
