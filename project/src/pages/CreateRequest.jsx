@@ -124,7 +124,7 @@ const handleSubmit = async () => {
 <option value="education">Education / Tutoring</option>
 <option value="technology">Technology Help</option>
 <option value="emergency">Emergency Support</option>
-<option value="other">Other</option>
+<option value="others">Others</option>
               </select>
               {errors.category && (
                 <p className="text-xs text-red-500 mt-1">{errors.category}</p>
