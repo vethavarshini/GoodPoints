@@ -22,9 +22,9 @@ const Dashboard = () => {
         "My grandfather needs someone to pick up his grocery order from the local supermarket and deliver the items",
       location: "Westside, Oak Ave",
       time: "29 minutes ago",
-      user: "Bobby",
+      user: "Bobby ",
       comments: 0,
-      status: "OPEN",
+      status: "CLOSED",
     },
   ];
 
