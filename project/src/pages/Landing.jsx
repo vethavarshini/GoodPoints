@@ -88,7 +88,7 @@ const Landing = () => {
       </p>
     </div>
     <span className="text-xs font-medium text-purple-700 bg-purple-100 px-2 py-1 rounded-full">
-      Urgent
+      Active
     </span>
   </div>
 
