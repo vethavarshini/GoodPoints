@@ -102,7 +102,7 @@ const OpenRequestCard = ({ request }) => (
     <div className="mt-4 flex gap-2">
       <button className="flex items-center gap-2 rounded-lg bg-indigo-600 px-3 py-2 text-sm text-white hover:bg-indigo-700">
         <HandHelping size={16} />
-        Help
+        Help!
       </button>
 
       <button className="rounded-lg border px-3 py-2 text-sm hover:bg-slate-100">
