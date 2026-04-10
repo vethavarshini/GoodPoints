@@ -84,7 +84,7 @@ const Landing = () => {
         Medical assistance request
       </p>
       <p className="text-xs text-slate-500">
-        Posted in Downtown area
+        Posted in Downtown 
       </p>
     </div>
     <span className="text-xs font-medium text-purple-700 bg-purple-100 px-2 py-1 rounded-full">
