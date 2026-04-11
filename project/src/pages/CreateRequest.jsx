@@ -133,7 +133,7 @@ const handleSubmit = async () => {
 
             <div>
               <label className="block text-sm font-medium text-purple-700 mb-2">
-                Neighborhood / Area
+                Neighborhood
               </label>
               <input
                 type="text"
