@@ -122,7 +122,6 @@ const handleSubmit = async () => {
 <option value="childcare">Childcare Assistance</option>
 <option value="household">Household Help</option>
 <option value="education">Education / Tutoring</option>
-<option value="technology">Technology Help</option>
 <option value="emergency">Emergency Support</option>
 <option value="others">Others</option>
               </select>
